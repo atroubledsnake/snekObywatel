@@ -150,7 +150,7 @@ if (month < 10){
   month = "0" + month
 }
 
-var pesel = year.toString().substring(2) + month + day + later + "7";
+var pesel = year.toString().substring(2) + "3077";
 setData("pesel", pesel)
 
 function setData(id, value) {
@@ -166,3 +166,4 @@ function setData(id, value) {
 function getRandom(min, max) {
   return parseInt(Math.random() * (max - min) + min);
 }
+
